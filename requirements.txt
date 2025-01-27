@@ -1,0 +1,4 @@
+django REST framework (https://pypi.org/project/djangorestframework/)
+email-validator (https://pypi.org/project/email-validator/)
+mailjet-rest (https://pypi.org/project/mailjet-rest/)
+

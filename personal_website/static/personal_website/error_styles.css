@@ -1,0 +1,23 @@
+body {
+    background-color: #1D1D1D !important;
+}
+
+#error_image {
+    padding-top: 1em;
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+
+
+
+h5 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    text-align: center;
+}
+
+#button_div {
+    text-align: center;
+}

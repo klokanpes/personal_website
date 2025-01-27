@@ -1,0 +1,281 @@
+#menubar_logo_text {
+    display: flex;
+    align-items: center;
+}
+
+#menubar_logo_text p {
+    margin: 0;
+    padding-left: 8px;
+}
+
+#navbar_whitespace {
+    padding-top: 2em;
+}
+
+.form-check-input:checked {
+    background-color: #2ECC40;
+    border-color: #229930;
+}
+
+.form-check-input:focus {
+    border-color: #56FF69;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 253, 53, 0.222);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+}
+
+.form-switch .form-check-input:focus {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .25);
+}
+
+.form-switch .form-check-input:checked {
+    background-position: right center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+}
+
+#photo {
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    max-height: 10em;
+}
+
+#image_whitespace {
+    padding-top: 1em;
+}
+
+iframe {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+
+@media screen and (min-width: 360px) {
+    iframe {
+        display: block;
+    }
+    .youtube_backup_link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    iframe {
+        display: none;
+    }
+    .youtube_backup_link {
+        display: block;
+    }
+}
+
+#github_black {
+    width: 32px;
+    height: auto;
+}
+
+#github_white {
+    width: 32px;
+    height: auto;
+}
+
+#linkedin_black {
+    width: 32px;
+    height: auto;
+}
+
+#linkedin_white {
+    width: 32px;
+    height: auto;
+}   
+
+#linkedin_a {
+    width: 32px;
+    height: auto;
+}
+
+#github_a {
+    width: 32px;
+    height: auto;
+}
+
+#socials_div {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: auto; 
+    gap: 15px; 
+    width: fit-content; 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#footer_div {
+    margin: auto;
+    text-align: center;
+    margin-top: auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+.blog_image {
+    max-height: 200px;
+    width: auto;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    padding: 1em;
+}
+
+.blog_hr {
+    padding-top: 1em;
+}
+
+#home_div p {
+    text-align: justify;
+}
+
+#about_me_div p {
+    text-align: justify;
+}
+
+#projects_div p {
+    text-align: justify;
+}
+
+#blog_div p {
+    text-align: justify;
+}
+
+#blog_div li {
+    text-align: justify;
+}
+
+#projects_div li {
+    text-align: justify;
+}
+
+#home_div li {
+    text-align: justify;
+}
+
+#terms_and_conditions_button {
+    background: none;
+    border: none;
+}
+
+#terms_and_conditions_button:hover {
+    background: none;
+    border: none;
+    font-weight: 500;
+}
+
+#terms_and_conditions_modal_button {
+    background: none;
+    border: none;
+}
+
+#terms_and_conditions_modal_button:hover {
+    background: none;
+    border: none;
+    font-weight: 500;
+}
+
+#download_button {
+    display: flex;
+    margin: auto;
+}
+
+#download_button_whitespace_div {
+    padding-top: 2em;
+}
+
+#page_buttons_div {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: auto; 
+    gap: 15px; 
+    width: fit-content;
+    padding-top: 1em;
+}
+
+.youtube_div {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    margin: auto;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.project_hr {
+    padding-bottom: 2em;
+}
+
+#home_div strong {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: auto;
+    padding-top: 1em;
+}
+
+#tab_content {
+    padding-top: 1em;
+}
+
+.nav-link.dark {
+    color: white;
+}
+
+.nav-link.dark:hover {
+    color:white
+}
+
+.nav-link.active.dark:hover {
+    color: black;
+}
+
+.nav-link {
+    color: darkgray;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+#projects_div a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+#projects_div a:hover {
+    font-weight: 500;
+}
+
+#modal_body_text {
+    text-align: justify;
+}
+
+#terms_and_conditions_modal_button {
+    padding-top: 1em;
+}
+
+.dark-toast {
+    color: white;
+    background-color: #122023;
+}
